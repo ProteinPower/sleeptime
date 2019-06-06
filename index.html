@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sleeptimeclone</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <script src="js.js"></script>
+    </head>
+
+    <body>
+        
+       <header><h1>sleeptime</h1></header>
+        <p>i have to wake up at....</p>
+
+        <form action="select1.php" method="post">
+
+                <p><select>
+                 <option disabled selected> HOUR</option>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+
+                </select></p>
+
+                <p class='selector'><select>
+                        <option disabled selected> MINUTE</option>
+                        <option value="00">00</option>
+                        <option value="05">05</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                        <option value="40">40</option>
+                        <option value="45">45</option>
+                        <option value="50">50</option>
+                        <option value="55">55</option>
+       
+                </select></p>
+
+                       <p class='selector'><select>
+                            <option value="1">AM</option>
+                            <option value="2">PM</option>
+                        </select></p>
+
+                <p class='selector'><input type="submit" value="calculate" onclick="whenWakeUp(14,45,'AM')"></p>
+
+        </form>
+
+
+
+    <p>hello bitch</p>
+
+    <div class="grid-container">
+            <div class="sleeptime"></div>
+            <div class="description"></div>
+            <div class="hour"></div>
+            <div class="minute"></div>
+            <div class="am"></div>
+            <div class="submit"></div>
+    </div>
+    </body>
+    
+</html>
